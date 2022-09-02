@@ -17,11 +17,14 @@ echo $string, "<br>";
 
 // Execute the function that allows you to replace text in a string (case sensitive)
 # str_replace ( $searchVal, $replaceVal, $subjectVal, $count )
-echo "<h3>Replace Text in a String | str_replace()</h3>";
-echo str_replace("and", "Modification in the string", $string), "<br>";
-echo str_replace("a", "A", $string), "<br>";
+echo "<h3>Replace Text in a String (sensitive) | str_replace()</h3>";
+echo str_replace("i", "(i)", $string), "<br>";
+echo str_replace("I", "3", $string), "<br>";
 
 // Execute the function that allows you to replace text in a string (without taking into account upper / lower case)
+echo "<h3>Replace Text in a String | str_replace()</h3>";
+echo str_ireplace("i", "(i)", $string), "<br>";
+echo str_ireplace("I", "3", $string), "<br>";
 
 // Execute the function that allows you to write a text N times
 # str_repeat ( string $input, int $multiplier )
