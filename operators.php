@@ -67,16 +67,16 @@ $result2 = true and false; // (=) has a higher prececence than (and).
 // }
 // echo "<hr>";
 
-#simple way
-echo($result1) ? "es true" : "es false";
+#ternary operator
+echo $result1 ? "es true" : "es false";
 echo "<br>";
-echo($result2) ? "es true" : "es false";
+echo ($result2) ? "es true" : "es false";
 echo "<br><br>";
 
 # - without an (=) sign afecting the precedence both operators output the same.
-echo(false && true) ? "es true" : "es false"; 
+echo (false && true) ? "es true" : "es false"; 
 echo "<br>";
-echo(false and true) ? "es true" : "es false";
+echo (false and true) ? "es true" : "es false";
 echo "<hr>";
 
 //|| vs or

@@ -6,9 +6,12 @@
 
 // date(string $format, int $timestamp);
 
+# (Código Tony) Establecer zona horaria
+// date_default_timezone_set("Europe/Madrid");
+
 //Instance the Date Time class and then invoke the format method with the argument “Y-m-d” to show year-month-day
 $dateTimeInstanced = new dateTime();
-echo date_format($dateTimeInstanced, "Y-m-d"); 
+echo date_format($dateTimeInstanced, "Y-m-d");
 
 //Get the current date in any format
 $currentDate = date("d-m-y");

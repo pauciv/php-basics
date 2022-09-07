@@ -46,33 +46,27 @@ echo "<h3>Switch to evaluate the Current Day</h3>";
 $day = date("D");
 var_dump($day);
 
-switch($day) {
-    case "Mon": 
+switch ($day) {
+    case "Mon":
         echo "Today is Monday.";
-    break;
-
-    case "Tue": 
+        break;
+    case "Tue":
         echo "Today is Tuesday.";
-    break;
-
-    case "Wed": 
+        break;
+    case "Wed":
         echo "Today is Wednesday.";
-    break;
-
-    case "Thu": 
+        break;
+    case "Thu":
         echo "Today is Thursday.";
-    break;
-
-    case "Fri": 
+        break;
+    case "Fri":
         echo "Today is Friday.";
-    break;
-
-    case "Sat": 
+        break;
+    case "Sat":
         echo "Today is Saturday.";
-    break;
-    
-    default: echo "Today is Sunday.";
+        break;
+    default:
+        echo "Today is Sunday.";
 }
 
-    
 ?>

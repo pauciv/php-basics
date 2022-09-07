@@ -37,12 +37,12 @@ echo $lowest;
 echo "<br><br>";
 
 //Define a variable whose value is the result of the function that returns a random number
-function randomNumber() {
-    return rand(); //mt_rand()
+function randomNumber($x, $y) {
+    return rand($x, $y); //mt_rand()
 }
 
-$lowest = randomNumber();
-echo $lowest;
+$random = randomNumber(1,10);
+echo $random;
 echo "<br><br>";
 
 ?>

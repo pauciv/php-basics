@@ -8,7 +8,7 @@ echo "<br>";
 
 //For each -----
 $arrColores = ["rojo", "verde", "azul"];
-foreach ($arrColores as $color) {
+foreach ($arrColores as $color) {  //&$color ??
     echo "Color: $color. ";
 }
 echo "<br>";
